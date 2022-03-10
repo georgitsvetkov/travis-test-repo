@@ -27,4 +27,62 @@ test_hello.sh and test_bye.sh scripts can be found attached to this repo
 
 - Create pull request. Once pull request is being created, prior merging the pull request, you should see test running in GitHub and [Travis](https://app.travis-ci.com/github/georgitsvetkov/travis-test-repo) showing the results of the test, based on the test_hello.sh script. Upon successfull test, you should get positive results
 
+Git pull request successfull test output:
+```
+All checks have passed
+2 successful checks
+
+Travis CI - Branch Successful in 15s — Build Passed
+
+Travis CI - Pull Request Successful in 17s — Build Passed
+```
+
+Travis pull request successfull test output:
+```
+Worker information
+6
+0.14s
+0.01s
+0.00s
+0.02s
+system_info
+7
+Build system information
+173
+174
+0.31s
+2.28s
+docker_mtu_and_registry_mirrors
+resolvconf
+git.checkout
+175
+0.42s
+$ git clone --depth=50 https://github.com/georgitsvetkov/travis-test-repo.git georgitsvetkov/travis-test-repo
+192
+193
+0.01s
+$ bash -c 'echo $BASH_VERSION'
+194
+4.3.48(1)-release
+195
+196
+0.00s
+$ bash test_hello.sh
+197
+GOOD: test pass
+198
+The command "bash test_hello.sh" exited with 0.
+199
+0.00s
+$ bash test_bye.sh
+200
+GOOD: test pass
+201
+The command "bash test_bye.sh" exited with 0.
+202
+203
+204
+Done. Your build exited with 0.
+```
+
 -  Merge pull request and delete branch
