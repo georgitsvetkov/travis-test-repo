@@ -19,6 +19,12 @@ test_hello.sh script can be found attached to this repo
 .travis.yml can be found attached to this repo
 `
 
-- Create an account at https://app.travis-ci.com and link your GiT account with your Travis account 
+- Create an account at https://app.travis-ci.com and link your GiT account with your Travis account. Instructions can be found on internet and/or app.travis-ci.com 
 
-- 
+- Clone/download [git repo](https://github.com/georgitsvetkov/travis-test-repo/) containing all the files needed (hello.sh, test_hello.sh and .travis.yml) 
+
+- Create new branch and ensure that the files above are present 
+
+- Create pull request. Once pull request is being created, prior merging the pull request, you should see test running in GitHub and [Travis](https://app.travis-ci.com/github/georgitsvetkov/travis-test-repo) showing the results of the test, based on the test_hello.sh script. Upon successfull test, you should get positive results
+
+-  Merge pull request and delete branch
