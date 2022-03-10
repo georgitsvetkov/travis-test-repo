@@ -1,16 +1,16 @@
 # travis-test-repo
 This is a repo for travis test (pass). In this repo I'm going to build a simple scrips and use travis.yml to test if the script is completing successfully and getting the expected outcome.
 
-- Create a script hello.sh, which prints hello
+- Create a script hello.sh and bye.sh, which prints hello and bye
 
 `
-hello.sh script can be found attached to this repo
+hello.sh and bye.sh scripts can be found attached to this repo
 `
 
-- Create a script test_hello.sh that checks/tests, if the correct output is being printed from the initial hello.sh script, using travis.yml
+- Create a script test_hello.sh and test_bye.sh that checks/tests, if the correct output is being printed from the initial hello.sh and bye.sh scripts, using travis.yml
 
 `
-test_hello.sh script can be found attached to this repo
+test_hello.sh and test_bye.sh scripts can be found attached to this repo
 `
 
 - Create a .travis.yml file that will run against those scripts and apply the test at https://app.travis-ci.com/github/georgitsvetkov
