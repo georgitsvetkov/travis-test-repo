@@ -1,5 +1,8 @@
 # travis-test-repo
-This is a repo for travis test (pass). In this repo I'm going to build a simple scrips and use travis.yml to test if the script is completing successfully and getting the expected outcome.
+
+This is a repo for successfull travis test (pass). In this repo I'm going to build a simple scrips and use travis.yml to test if the script is completing successfully and getting the expected outcome.
+
+# How To Use This Repo
 
 - Create a script hello.sh and bye.sh, which prints hello and bye
 
